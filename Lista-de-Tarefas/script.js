@@ -1,8 +1,7 @@
 let list = document.querySelector('.list');
 let input = document.querySelector('.input');
 
-let tasks = [
-];
+let tasks = [];
 
 input.addEventListener('keyup', (event) => {
     if (event.key.toLowerCase() === 'enter' && input.value != '') {
